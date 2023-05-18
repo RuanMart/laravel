@@ -12,7 +12,7 @@
                 <p class="job-desc">{{ $job->description }}</p>
                 <p><span class="bold">O salário informado é de:</span> R{{ $job->salary }}</p>
                 <p>
-                    Para trabalhar na <span class="bold main-color">{{ $job->company }}</span> envie um e-mail para a <a
+                    Para trabalhar na <span class="bold main-color">{{ $job->company }}</span> envie um e-mail para: <a
                         class="main-color" href="mail:to{{ $job->email }}">{{ $job->email }}</a>
                 </p>
             </div>
